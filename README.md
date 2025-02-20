@@ -3,7 +3,7 @@ This repo is used to generate the Figures for the publication: Cooperative Free 
 
 doi: TBD
 
-<img src='./Figures/abstract.png' width='700'> 
+<img src='./abstract.png' width='700'> 
 
 # Figures
 Figure1, Figure2, and Figure S1 are generated from `simulation.ipynb`
