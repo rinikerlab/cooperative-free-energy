@@ -1,0 +1,35 @@
+CHARGE     -2.00 ( -2 )
+Formula: H6 C3 N1 O6 P1 
+ATOM      1  H01 SEP     1       2.299   1.280   2.043  0.363467         H
+ATOM      2  H02 SEP     1       2.066  -0.310   2.415  0.363467         H
+ATOM      3  H03 SEP     1       2.200   0.158   0.839  0.363467         H
+ATOM      4  N   SEP     1       1.855   0.421   1.751 -1.118600         N
+ATOM      5  CA  SEP     1       0.401   0.620   1.687  0.026500        CX
+ATOM      6  CB  SEP     1      -0.139   0.015   0.391  0.173400        CT
+ATOM      7  OG  SEP     1       0.477   0.655  -0.727 -0.599200        OS
+ATOM      8  C   SEP     1      -0.249  -0.053   2.867  0.909600         C
+ATOM      9  O   SEP     1       0.254  -1.038   3.354 -0.865800         O
+ATOM     10  OXT SEP     1      -1.389   0.439   3.377 -0.865800        O2
+ATOM     11  P   SEP     1      -0.135  -0.027  -2.050  1.341900         P
+ATOM     12  O1P SEP     1      -1.601   0.172  -2.074 -0.733167        O2
+ATOM     13  O2P SEP     1       0.520   0.649  -3.356 -0.733167        O2
+ATOM     14  O3P SEP     1       0.191  -1.603  -2.041 -0.733167        O2
+ATOM     15  HA  SEP     1       0.179   1.687   1.711  0.049700        H1
+ATOM     16  HB2 SEP     1       0.082  -1.051   0.367  0.028200        H1
+ATOM     17  HB3 SEP     1      -1.218   0.163   0.344  0.028200        H1
+BOND    1    1    4    1    H01    N
+BOND    2    2    4    1    H02    N
+BOND    3    3    4    1    H03    N
+BOND    4    4    5    1      N   CA
+BOND    5    5    6    1     CA   CB
+BOND    6    5    8    1     CA    C
+BOND    7    5   15    1     CA   HA
+BOND    8    6    7    1     CB   OG
+BOND    9    6   16    1     CB  HB2
+BOND   10    6   17    1     CB  HB3
+BOND   11    7   11    1     OG    P
+BOND   12    8    9    9      C    O
+BOND   13    8   10    9      C  OXT
+BOND   14   11   12    9      P  O1P
+BOND   15   11   13    9      P  O2P
+BOND   16   11   14    9      P  O3P

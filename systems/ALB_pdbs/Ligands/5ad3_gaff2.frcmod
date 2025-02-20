@@ -1,0 +1,94 @@
+Remark line goes here
+MASS
+nx 14.010        0.530               same as n4 
+c6 12.010        0.878               same as c3 
+
+BOND
+nd-nx  200.80   1.679       same as n2-n4, penalty score=  8.2
+cd-nx  299.00   1.493       same as cd-n4, penalty score=  0.0
+hn-nx  373.20   1.030       same as hn-n4, penalty score=  0.0
+c6-nh  326.60   1.464       same as c3-nh, penalty score=  0.0
+c6-c6  300.90   1.538       same as c3-c3, penalty score=  0.0
+c6-h1  330.60   1.097       same as c3-h1, penalty score=  0.0
+c6-hc  330.60   1.097       same as c3-hc, penalty score=  0.0
+c6-ca  321.00   1.516       same as c3-ca, penalty score=  0.0
+
+ANGLE
+nc-cd-nx   67.882     122.780   Calculated using nc-ca-n4, penalty score= 23.5
+cc-nd-nx   63.042     109.450   Calculated using n4-n2-ca, penalty score= 22.6
+nx-cd-os   70.100     115.275   Calculated using n4-ca-os, penalty score= 23.5
+cd-cd-nx   66.546     118.420   Calculated using n4-ca-ca, penalty score= 25.5
+cd-nx-nd   60.308     111.560   Calculated using n2-n4-ca, penalty score=  4.8
+hn-nx-nd   42.300     109.680   same as hn-n4-n2, penalty score=  2.8
+c6-c6-nh   66.200     110.460   same as c3-c3-nh, penalty score=  0.0
+h1-c6-nh   49.600     109.790   same as h1-c3-nh, penalty score=  0.0
+na-cc-os   72.900     117.480   same as na-cc-oh, penalty score=  2.0
+cd-nx-cd   62.400     114.480   same as ca-n4-ca, penalty score=  4.1
+cd-nx-hn   46.500     110.500   same as ca-n4-hn, penalty score=  2.0
+c6-nh-cc   63.700     119.720   same as c3-nh-cc, penalty score=  0.0
+c6-nh-c6   63.200     114.510   same as c3-nh-c3, penalty score=  0.0
+c6-c6-c6   62.900     111.510   same as c3-c3-c3, penalty score=  0.0
+c6-c6-hc   46.300     109.800   same as c3-c3-hc, penalty score=  0.0
+c6-c6-h1   46.400     109.560   same as c3-c3-h1, penalty score=  0.0
+c6-c6-ca   63.100     112.070   same as c3-c3-ca, penalty score=  0.0
+c6-ca-ca   63.500     120.770   same as c3-ca-ca, penalty score=  0.0
+ca-c6-hc   46.800     110.470   same as ca-c3-hc, penalty score=  0.0
+h1-c6-h1   39.200     108.460   same as h1-c3-h1, penalty score=  0.0
+hc-c6-hc   39.400     107.580   same as hc-c3-hc, penalty score=  0.0
+
+DIHE
+nc-cd-os-c3   2    2.100       180.000           2.000      same as X -c2-os-X , penalty score=232.0
+nx-cd-os-c3   2    2.100       180.000           2.000      same as X -c2-os-X , penalty score=232.0
+nc-cd-nx-nd   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+os-cd-nx-nd   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+cd-cd-nx-nd   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+c6-c6-c6-nh   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+hc-c6-c6-nh   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+na-cc-os-c3   2    2.100       180.000           2.000      same as X -c2-os-X , penalty score=232.0
+nd-cc-os-c3   2    2.100       180.000           2.000      same as X -c2-os-X , penalty score=232.0
+cc-nd-nx-cd   3   24.000       180.000           2.000      same as X -n2-n4-X , penalty score=218.5
+nc-cd-nx-cd   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+cd-cd-nx-cd   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+os-cd-nx-cd   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+c6-c6-nh-cc   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+h1-c6-nh-cc   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c6-c6-nh-c6   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+h1-c6-nh-c6   6    0.000         0.000           2.000      same as X -c3-nh-X , penalty score=  0.0
+c6-c6-c6-c6   1    0.180         0.000          -3.000      same as c3-c3-c3-c3
+c6-c6-c6-c6   1    0.250       180.000          -2.000      same as c3-c3-c3-c3
+c6-c6-c6-c6   1    0.200       180.000           1.000      same as c3-c3-c3-c3, penalty score=  0.0
+c6-c6-c6-ca   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+c6-c6-c6-hc   1    0.160         0.000           3.000      same as hc-c3-c3-c3, penalty score=  0.0
+c6-c6-ca-ca   6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+cc-nd-nx-hn   3   24.000       180.000           2.000      same as X -n2-n4-X , penalty score=218.5
+nc-cd-nx-hn   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+os-cd-nx-hn   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+cd-cd-nx-hn   6    0.000       180.000           3.000      same as X -c2-n4-X , penalty score=232.0
+c6-c6-c6-h1   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+h1-c6-c6-hc   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+ca-c6-c6-hc   9    1.400         0.000           3.000      same as X -c3-c3-X , penalty score=  0.0
+hc-c6-c6-hc   1    0.150         0.000           3.000      same as hc-c3-c3-hc, penalty score=  0.0
+hc-c6-ca-ca   6    0.000         0.000           2.000      same as X -c3-ca-X , penalty score=  0.0
+
+IMPROPER
+c6-c6-nh-cc         1.1          180.0         2.0          Using the default value
+c3-c3-nh-cd         1.1          180.0         2.0          Using the default value
+cc-cc-na-nc         1.1          180.0         2.0          Using the default value
+nc-nx-cd-os         1.1          180.0         2.0          Using the default value
+cd-nc-cd-nx         1.1          180.0         2.0          Using the default value
+cc-cd-cd-ha         1.1          180.0         2.0          Using the default value
+cc-cd-cc-ha         1.1          180.0         2.0          Using the default value
+cc-nd-cc-nh         1.1          180.0         2.0          Using the default value
+c6-ca-ca-ca         1.1          180.0         2.0          Using the default value
+ca-ca-ca-ha         1.1          180.0         2.0          Using general improper torsional angle  X- X-ca-ha, penalty score=  6.0)
+ca-ca-ca-os         1.1          180.0         2.0          Using the default value
+cd-nc-cd-nh         1.1          180.0         2.0          Using the default value
+cc-na-cc-nd         1.1          180.0         2.0          Using the default value
+na-nd-cc-os         1.1          180.0         2.0          Using the default value
+
+NONBON
+  nx          1.8240  0.1700             same as n4 
+  c6          1.9080  0.1094             same as c3 
+
+
+

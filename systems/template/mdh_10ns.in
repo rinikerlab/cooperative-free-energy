@@ -1,0 +1,47 @@
+A NPT simulation for common production-level simulations
+ &cntrl
+    imin=0,        ! No minimization
+    irest=1,       ! This IS a restart of an old MD simulation
+    ntx=5,         ! So our inpcrd file has velocities
+
+    ! Temperature control
+    ntt=3,         ! Langevin dynamics
+    gamma_ln=1.0,  ! Friction coefficient (ps^-1)
+    temp0=298.15,   ! Target temperature
+
+    ! Potential energy control
+    cut=9.0,       ! nonbonded cutoff, in Angstroms
+
+    ! MD settings
+    nstlim=5000000,! 5M steps, 10 ns total
+    dt=0.002,      ! time step (2fs)
+
+    ! SHAKE
+    ntc=2,         ! Constrain bonds containing hydrogen
+    ntf=2,         ! Do not calculate forces of bonds containing hydrogen
+
+    ! Control how often information is printed
+    ntpr=200000,     ! Print energies every 200k steps
+    ntwx=2500,     ! Print coordinates every 2.5k steps to the trajectory (2000 frames, print every 5ps)
+    ntwr=2000000,    ! Print a restart file every 2M steps (can be less frequent)
+!   ntwv=-1,       ! Uncomment to also print velocities to trajectory
+!   ntwf=-1,       ! Uncomment to also print forces to trajectory
+    ntxo=2,        ! Write NetCDF format
+    ioutfm=1,      ! Write NetCDF format (always do this!)
+
+    ! Wrap coordinates when printing them to the same unit cell
+    iwrap=0,
+
+    ! Constant pressure control. Note that ntp=1 requires barostat=1
+    barostat=1,    ! Berendsen... change to 2 for MC barostat
+    ntp=1,         ! 1=isotropic, 2=anisotropic, 3=semi-isotropic w/ surften
+    pres0=1.0,     ! Target external pressure, in bar
+    taup=0.5,      ! Berendsen coupling constant (ps)
+ /
+
+
+~                                                                                                                                                                                                                                                                                  
+~                                                                                                                                                                                                                                                                                  
+~                                                                                                                                                                                                                                                                                  
+~                                                                                                                                                                                                                                                                                  
+~                                  

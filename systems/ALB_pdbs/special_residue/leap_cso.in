@@ -1,0 +1,8 @@
+loadamberprep cso.prepin
+source leaprc.protein.ff19SB
+loadamberparams frcmod2.cso 
+loadamberparams frcmod1.cso
+aa = sequence {ACE CSO NME}
+savepdb aa CSO_pep.pdb
+saveAmberParm aa aa.prmtop aa.rst7
+

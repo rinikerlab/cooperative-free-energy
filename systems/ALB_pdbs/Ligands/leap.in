@@ -1,0 +1,7 @@
+source leaprc.gaff2
+5fqd = loadmol2 5fqd_gaff2.mol2
+loadamberparams 5fqd_gaff2.frcmod
+saveoff 5fqd 5fqd_gaff2.lib
+savepdb 5fqd 5fqd_name.pdb
+saveamberparm 5fqd 5fqd.prmtop 5fqd.inpcrd
+quit

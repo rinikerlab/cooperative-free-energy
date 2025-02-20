@@ -1,0 +1,7 @@
+source leaprc.gaff2
+XXX = loadmol2 XXX_gaff2.mol2
+loadamberparams XXX_gaff2.frcmod
+saveoff XXX XXX_gaff2.lib
+savepdb XXX XXX_name.pdb
+saveamberparm XXX XXX.prmtop XXX.inpcrd
+quit

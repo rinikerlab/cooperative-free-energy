@@ -1,0 +1,37 @@
+&general
+# take only 10-50ns for analysis
+use_sander=1,
+startframe=1, 
+# endframe=8,
+interval=1,
+
+# Calculate entropy with quasi-harmonic entropy approximation
+# entropy=1, # don't need this anymore
+
+# Keep all (temporary files) for later use of MMPBSA_API
+keep_files=0, 
+
+# Print all errors and tracebacks
+debug_printlevel=2, 
+
+# Use NetCDF
+netcdf=1,
+
+strip_mask= ":K+:Cl-:WAT:CL:CIO:CS:IB:K:LI:MG:NA:RB:PC:PA:OL"
+
+/
+&pb
+
+# use hardcoded radii, optimized for drug-like molecules (standard setting)
+radiopt=0, 
+
+# external permittivity (=water) 
+
+exdi=80.0,
+
+# internal permittivity (=protein) 
+indi=1.0,  
+
+# ionic strength 
+istrng=0.150, 
+/

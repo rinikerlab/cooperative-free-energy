@@ -1,0 +1,4 @@
+parm XXX_opc3_mbondi2.prmtop
+change CHARGE :WAT@O -1.3583
+change CHARGE :WAT@H1,H2 0.6791
+parmout XXX_opc_charge_mbondi2.prmtop

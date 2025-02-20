@@ -1,0 +1,9 @@
+GBNSR6 inputfile
+&cntrl
+ inp=0,
+/
+&gb
+ alpb=1,
+ dgij=1,
+ rbornstat=1,
+/
