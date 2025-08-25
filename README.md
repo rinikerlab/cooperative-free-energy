@@ -1,7 +1,7 @@
 # Cooperative Free Energy
 This repo is used to generate the Figures for the publication: Cooperative Free Energy: Induced Protein-Protein Interaction, Cooperative Solvation, and Ligand Conformation in Protein-Ligand-Protein Ternary Complexes
 
-doi: TBD
+doi: acs.jctc.5c00736
 
 <img src='./abstract.png' width='700'> 
 
